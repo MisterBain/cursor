@@ -1,0 +1,16 @@
+def welcome_message(name):
+    """
+    Generates a personalized welcome message.
+
+    Args:
+        name (str): The name of the person to welcome.
+
+    Returns:
+        str: A personalized welcome message.
+    """
+    return f"Welcome, {name}! We're thrilled to have you here."
+
+# --- Main part of the script ---
+if __name__ == "__main__":
+    user_name = input("Please enter your name: ")
+    print(welcome_message(user_name))
