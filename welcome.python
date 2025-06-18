@@ -1,0 +1,10 @@
+# First, let's ask for the user's name
+user_name = input("Pray tell, what name shall I address you by today? ")
+
+# Now, for the special greeting!
+if user_name == "MisterBain":
+    print("Hey, it's the awesome AI Director, MisterBain!")
+else:
+    print(f"A most pleasant day to you, {user_name}!")
+
+print("Welcome to our humble digital abode!")
